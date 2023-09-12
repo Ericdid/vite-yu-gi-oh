@@ -1,10 +1,13 @@
 <script>
+import cardList from "./cardList.vue";
+
 export default {
   data() {
     return {
       title: "",
     };
   },
+  components: { cardList },
 };
 </script>
 
@@ -25,6 +28,7 @@ export default {
           <div class="col">card</div>
           <div class="col">card</div>
           <div class="col">card</div>
+          <cardList />
         </div>
       </div>
     </div>
