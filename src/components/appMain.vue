@@ -18,18 +18,8 @@ export default {
         <option value="alien">Alien</option>
       </select>
       <div class="card-cont mt-2">
-        <div class="container card-founded"><strong>found x card</strong></div>
-        <div class="row row-cols-lg-5">
-          <div class="col">card</div>
-          <div class="col">card</div>
-          <div class="col">card</div>
-          <div class="col">card</div>
-          <div class="col">card</div>
-          <div class="col">card</div>
-          <div class="col">card</div>
-          <div class="col">card</div>
-          <cardList />
-        </div>
+        <div class="container card-found"><strong>found x card</strong></div>
+        <cardList />
       </div>
     </div>
   </section>
@@ -46,7 +36,7 @@ export default {
     height: 800px;
     background-color: white;
 
-    .card-founded {
+    .card-found {
       width: 100%;
       height: 5%;
       background-color: black;
