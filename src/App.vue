@@ -1,22 +1,18 @@
 <script>
 import appHeader from "./components/appHeader.vue";
+import appMain from "./components/appMain.vue";
 
 export default {
   data() {
-    return {
-      title: "Yu-Gi-Ho Api",
-    };
+    return {};
   },
-  components: { appHeader },
+  components: { appHeader, appMain },
 };
 </script>
 
 <template>
   <appHeader />
+  <appMain />
 </template>
 
-<style>
-img {
-  width: 80px;
-}
-</style>
+<style></style>
