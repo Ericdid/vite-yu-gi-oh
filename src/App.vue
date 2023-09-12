@@ -1,5 +1,7 @@
 <script></script>
 
-<template></template>
+<template>
+  <h1 class="text-center">Hello World</h1>
+</template>
 
 <style></style>
