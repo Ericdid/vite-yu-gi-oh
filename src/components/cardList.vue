@@ -5,20 +5,21 @@ export default {
   data() {
     return {
       title: "Hello world",
+      cardList: [],
     };
   },
   created() {
     axios
       .get("https://db.ygoprodeck.com/api/v7/cardinfo.php?num=20&offset=0")
       .then((res) => {
-        console.log(res);
+        let cardResults = res.data.data;
+        // console.log(cardResults);
+        this.cardList = cardResults;
       });
   },
 };
 </script>
 
-<template>
-  <h1>{{ title }}</h1>
-</template>
+<template></template>
 
 <style lang="scss" scoped></style>
