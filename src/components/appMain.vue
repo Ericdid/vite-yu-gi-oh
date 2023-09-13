@@ -18,7 +18,9 @@ export default {
         <option value="alien">Alien</option>
       </select>
       <div class="card-cont mt-2">
-        <div class="container card-found"><strong>found x card</strong></div>
+        <div class="container card-found">
+          <strong>found X card</strong>
+        </div>
         <cardList />
       </div>
     </div>
@@ -27,7 +29,7 @@ export default {
 
 <style lang="scss" scoped>
 .main-section {
-  height: 900px;
+  height: 1200px;
   background-color: orange;
   .select {
     border-radius: 5px;
